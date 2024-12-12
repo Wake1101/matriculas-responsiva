@@ -1,0 +1,42 @@
+@import url(fields/index.css);
+
+form {
+    margin-top: 3rem;
+}
+
+fieldset {
+    border: none;
+    
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+legend {
+    font: 600 1rem/1.25rem var(--font-family);
+    margin-bottom: 1.5rem;
+}
+
+fieldset + fieldset {
+    margin-top: 3rem;
+}
+
+input[type="file"]:hover {
+    cursor: pointer;
+}
+
+.actions-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+<<<<<<< HEAD
+}
+
+@media (width <= 80em) {
+    .actions-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+=======
+>>>>>>> 820d367714ab6804ca0f17ccea09f5b63bb5f42a
+}
